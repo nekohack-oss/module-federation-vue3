@@ -1,0 +1,14 @@
+{
+  "name": "module-federation-vue3",
+  "private": true,
+  "scripts": {
+    "build": "lerna run --scope @nekohack/* build",
+    "serve": "lerna run --scope @nekohack/* --parallel serve",
+    "clean": "lerna run --scope @nekohack/* --parallel clean",
+    "lint": "lerna run --scope @nekohack/* --parallel lint",
+    "lint:fix": "lerna run --scope @nekohack/* --parallel lint:fix"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
